@@ -1,0 +1,20 @@
+{
+    "name": "user/elxr-suggestics",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hosni Colina",
+            "email": "corobonhosni@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "gmostafa/php-graphql-client": "dev-master",
+        "ramsey/uuid": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
